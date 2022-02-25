@@ -19,4 +19,8 @@ git diff [HEAD] [fiename] (和本地库比较，其他历史版本也行)
 git branch -v 
 git branch [hot_fix] 
 git switch [hot_fix]
-mmmmss
+
+git remote -v
+git remote add [别名] [http://github地址]
+git push [地址别名] [分支] （推送）
+git clone [地址] （拉取）
