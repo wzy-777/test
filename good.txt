@@ -1,4 +1,22 @@
-abcdefg
-wo
-shi
-zhiyuan
+git status
+git add [filename]
+git commit [filename]
+git commit -m "message" [filename]
+
+git log (空格下页，b上页，q退出，和less类似)
+git log --pretty=oneline
+git log --oneline
+git reflog
+
+git reset --hard [局部索引值] （参数还有soft，mixed）
+git reset --hard HEAD^ (回退)
+git reset --hard HEAD~3 
+
+git diff [fiename] (和暂存区比较，不加文件名比较所有文件)
+git diff [HEAD] [fiename] (和本地库比较，其他历史版本也行)
+
+---------------------------------------
+git branch -v 
+git branch [hot_fix] 
+git switch [hot_fix]
+
