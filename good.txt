@@ -1,3 +1,4 @@
+git init
 git status
 git add [filename]
 git commit [filename]
@@ -23,4 +24,7 @@ git switch [hot_fix]
 git remote -v
 git remote add [别名] [http://github地址]
 git push [地址别名] [分支] （推送）
-git clone [地址] （拉取）
+git clone [地址] （克隆，为下载完整项目）
+git fetch [地址别名] [分支] （拉取远程库，本地库不改变）
+git merge [地址别名/分支] （远程库融合，本地库改变）
+git pull [地址别名] [分支] （相当于fetch+merge）
